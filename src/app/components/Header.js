@@ -6,7 +6,7 @@ const Fa = (props) => {
   return <i className={`fa ${props.iconClass}`} aria-hidden="true"></i>
 };
 
-class Foo extends Component {
+class Header extends Component {
   render() {
     return(
       <div className = "site-root">
@@ -14,18 +14,10 @@ class Foo extends Component {
           <section className="name">
             <Link to="/">joolee chin</Link>
           </section>
-          <nav className="nav">
-            <ul>
-              <li>
-                <Link to="/">home</Link>
-              </li>
-              <li>
-                <Link to="/">about me</Link>
-              </li>
-              <li>
-                <Link to="/">projects</Link>
-              </li>
-            </ul>
+          <nav>
+            <Link to="/" className="nav-link">home</Link>
+            <Link to="/" className="nav-link">about me</Link>
+            <Link to="/" className="nav-link">projects</Link>
           </nav>
         </header>
         <footer>
@@ -37,13 +29,10 @@ class Foo extends Component {
             <a href="https://github.com/jooleechin" target="_blank" ><Fa iconClass="fa-github" /></a>
             <a href="https://www.linkedin.com/in/jooleechin" target="_blank" ><Fa iconClass="fa-linkedin" /></a>
           </p>
-          <p>
-            &copy; joolee chin 2018
-          </p>
         </footer>
       </div>
     )
   }
 }
 
-export default Foo
+export default Header
