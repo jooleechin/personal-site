@@ -2,6 +2,7 @@
   margin-left: auto;
   margin-right: auto;
   height: 8vh;
+  font-family: 'Cabin', sans-serif;
 }
 
 nav {
@@ -21,17 +22,19 @@ nav {
 .nav-link{
   margin: 10px;
   position: relative;
-  color: #0000FF;
+  /* color: #0000FF; */
+  color: pink;
   text-decoration: none;
 }
 .nav-link:before {
   content: "";
   position: absolute;
   width: 100%;
-  bottom: 45%;
+  bottom: 40%;
   left: 0;
-  height: 3px;
-  background-color: #000;
+  height: 1.5px;
+  /* background-color: #0000FF; */
+  background-color: white;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -45,7 +48,7 @@ nav {
   transform: scaleX(1);
 }
 .nav-link:hover {
-  color: #0000FF;
+  /* color: #0000FF; */
 }
 
 a {

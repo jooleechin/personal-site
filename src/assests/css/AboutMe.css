@@ -1,59 +1,80 @@
 .about-box{
   width: 100vw;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   margin-left: auto;
   margin-right: auto;
   position: relative;
 }
+
 .sectionTitle {
   position: absolute;
   transform: rotate(-90deg);
   transform-origin: left top;
-  font-size: 2.0em;
+  font-size: 3.0em;
   letter-spacing: 15px;
+  font-family: 'Cabin', sans-serif;
   font-weight: 600;
-  top: 40%;
+  top: 30%;
   left: 5%;
   color: #545E75;
   /* background-color: #d4aeb1; */
   text-shadow: 3px 3px #f9f9f9;
 }
 .content {
-  width: 80%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-}
-.about-me-blurb {
+  align-items: center;
   font-size: 1.5em;
+}
+.blurb {
   width: 50%;
   height: 20%;
-  text-align: left;
+  text-align: justify;
 }
 .tech {
-  font-size: 1.5em;
+  font-family: athelas, georgia, serif;
+}
+.tech p {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 1.1em;
 }
 .language_bubble {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    list-style-type: none;
-    max-width: 500px;
-    margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+  max-width: 500px;
+  margin: auto;
 }
 .circle {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    border: #d4aeb1 dotted 3px;
-    font-size: 18px;
-    line-height: 130px;
-    text-align: center;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: #d4aeb1 dotted 3px;
+  font-size: 18px;
+  line-height: 130px;
+  text-align: center;
 /*    background: #d4aeb1;*/
-    color: #545E75;
-    letter-spacing: 3px;
-    margin-bottom: 10px;
-    font-family: athelas, georgia, serif;
+  color: #545E75;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  font-family: athelas, georgia, serif;
+}
+.skills {
+  display: flex;
+  text-align: left;
+}
+.skills ul {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.skills li {
+  color: #545E75;
+  padding-bottom: 4px;
 }
