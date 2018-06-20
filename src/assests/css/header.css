@@ -1,27 +1,13 @@
-.site-root {
+.nav-box {
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
-  background-color: pink;
-}
-
-.name {
-  position: absolute;
-  font-family: 'Cabin', sans-serif;
-  transform: rotate(-90deg);
-  transform-origin: left top;
-  font-size: 2.0em;
-  letter-spacing: 15px;
-  font-weight: 600;
-  top: 50%;
-  left: 8%;
+  height: 8vh;
 }
 
 nav {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  font-family: 'Cabin', sans-serif;
   font-weight: 600;
   font-size: 1.8em;
   letter-spacing: 2px;
@@ -33,7 +19,6 @@ nav {
   box-shadow: 0 10px 6px -6px #777; */
 }
 .nav-link{
-  /* margin-top: 30px; */
   margin: 10px;
   position: relative;
   color: #0000FF;
@@ -69,15 +54,4 @@ a {
 
 ul {
   list-style: none;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.social-icons a{
-  padding: 20px;
-  font-size: 2.0em;
 }
