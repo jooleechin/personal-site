@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import '../../assests/css/AboutMe.css'
+import yayoi from '../../assests/images/yayoi.jpg'
 
 class AboutMe extends Component {
   render() {
@@ -8,10 +9,18 @@ class AboutMe extends Component {
       <div className = "about-box">
         <h1 className="sectionTitle">ABOUT</h1>
         <section className="content">
-          <h4 className="blurb">hello! my name is joolee chin and i am a software developer that
-            has full-stack knowledge. I enjoy designing and building responsive
-            websites.
-          </h4>
+          <div className="about_me">
+            <div className="photo">
+                <img src={yayoi} alt={yayoi}/>
+            </div>
+            <div className="blurb">
+              <p>
+              hello! my name is joolee chin and i am a software developer that
+              has full-stack knowledge. I enjoy designing and building responsive
+              websites.
+              </p>
+            </div>
+          </div>
           <div className="tech">
             <p>programming skills:</p>
             <div class="skills_languages">

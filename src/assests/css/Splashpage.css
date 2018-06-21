@@ -9,26 +9,34 @@
   position: absolute;
   transform: rotate(-90deg);
   transform-origin: left top;
-  font-size: 2.0em;
+  font-size: 3.0em;
   letter-spacing: 15px;
   font-weight: 600;
   top: 40%;
-  left: 8%;
+  left: 10%;
   color: #545E75;
   font-family: 'Cabin', sans-serif;
   /* background-color: #d4aeb1; */
   text-shadow: 3px 3px #f9f9f9;
 }
-
 .words {
   position: absolute;
   bottom: 25%;
   left: 8%;
   font-family: 'Special Elite', cursive;
-  font-size: 1.0em;
+  font-size: 1.8em;
   letter-spacing: 2px;
 }
-.photo {
+.code {
+  position: absolute;
+  top: 10%;
+  left: 55%;
+  text-align: left;
+  padding: 20px;
+  font-size: .9em;
+}
+/* photo stuff */
+/* .photo {
   position: absolute;
   top: 10%;
   right: 10%;
@@ -36,4 +44,4 @@
 .photo img {
   max-height: auto;
   max-width: 40vw;
-}
+} */

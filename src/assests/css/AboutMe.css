@@ -6,16 +6,15 @@
   margin-right: auto;
   position: relative;
 }
-
 .sectionTitle {
   position: absolute;
   transform: rotate(-90deg);
   transform-origin: left top;
-  font-size: 3.0em;
+  font-size: 2.0em;
   letter-spacing: 15px;
   font-family: 'Cabin', sans-serif;
   font-weight: 600;
-  top: 30%;
+  top: 20%;
   left: 5%;
   color: #545E75;
   /* background-color: #d4aeb1; */
@@ -30,10 +29,26 @@
   align-items: center;
   font-size: 1.5em;
 }
+.about_me {
+  /* width: 75%; */
+  /* display: flex;
+  justify-content: center; */
+}
+.about_me div {
+  margin: 10px 25px;
+}
+
+.photo img {
+  max-height: auto;
+  max-width: 40vw;
+}
 .blurb {
-  width: 50%;
+  font-size: .8em;
+  width: 30%;
   height: 20%;
   text-align: justify;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
 }
 .tech {
   font-family: athelas, georgia, serif;
@@ -53,12 +68,12 @@
   margin: auto;
 }
 .circle {
-  width: 130px;
-  height: 130px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
   border: #d4aeb1 dotted 3px;
-  font-size: 18px;
-  line-height: 130px;
+  font-size: .7em;
+  line-height: 110px;
   text-align: center;
 /*    background: #d4aeb1;*/
   color: #545E75;
