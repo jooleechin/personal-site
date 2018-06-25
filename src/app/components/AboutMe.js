@@ -14,25 +14,23 @@ class AboutMe extends Component {
               <img src={yayoi} alt={yayoi}/>
             </div>
             <div className="blurb">
-              <p>
-              hello! my name is joolee chin and i am a software developer that
-              has full-stack knowledge. I enjoy designing and building responsive
+              <h4>Hello!</h4>
+              <p>My name is Joolee Chin and I am a software developer that
+              has full-stack knowledge. <br/>I enjoy designing and building responsive
               websites.
               </p>
             </div>
           </div>
-          <div className="tech">
-            <p>programming skills:</p>
-            <div class="skills_languages">
-              <ul class="language_bubble">
-                <li class="circle">js ES6</li>
-                <li class="circle">html5</li>
-                <li class="circle">css3</li>
-                <li class="circle sql">sql</li>
-                <li class="circle sql">python</li>
-              </ul>
-            </div>
+          <section>
             <div className="skills">
+              <ul>
+                <p>programming:</p>
+                <li>// javascript ES6</li>
+                <li>// html5</li>
+                <li>// css3</li>
+                <li>// sql</li>
+                <li>// python</li>
+              </ul>
               <ul>
                 <p>frameworks:</p>
                 <li>// react | react router</li>
@@ -50,7 +48,7 @@ class AboutMe extends Component {
                 <li>// postman</li>
               </ul>
             </div>
-          </div>
+          </section>
         </section>
 
       </div>

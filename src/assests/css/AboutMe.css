@@ -32,46 +32,55 @@
   font-size: 1.5em;
 }
 .about_me {
-  /* width: 75%; */
-  /* display: flex;
-  justify-content: center; */
   width: 75%;
   height: 60%;
-  /* background-color: blue; */
-  /* position: relative; */
 }
 .about_me div {
   margin: 10px 25px;
 }
 .photo {
-  width: 100%;
-  height: auto;
-  /* position: absolute;
-  left: 0%; */
+  border: 10px #f0f0f0 solid;
+  width: 550px;
+  /* height: 300px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  right: 0%;
 }
 .photo img {
-  max-height: auto;
-  max-width: 35vw;
-  border: 15px #545E75 solid;
-  /* position: absolute;
-  left: 0%; */
+  flex-shrink: 0;
+  min-width: 100%;
 }
 .blurb {
-  font-size: .8em;
-  width: 30%;
-  height: 30%;
-  text-align: justify;
-  font-family: 'Raleway', sans-serif;
-  font-weight: normal;
+  z-index: -10;
+  width: 40%;
+  height: 45%;
+  text-align: left;
   background-color: pink;
-  /* position: absolute;
-  top: 0%; */
-  right: 10%;
+  position: absolute;
+  top: 1%;
+  left: 45%;
+  padding-top: 3%;
+  padding-left: 8%;
+  padding-right: 1%;
 }
-.tech {
+.blurb h4 {
+  text-shadow: 3px 3px #f9f9f9;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  color: #545E75;
+}
+.blurb p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+.skills {
   font-family: athelas, georgia, serif;
 }
-.tech p {
+.skills p {
   font-family: 'Cabin', sans-serif;
   font-weight: 600;
   letter-spacing: 3px;
