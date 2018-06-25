@@ -3,9 +3,21 @@ footer {
   flex-direction: column;
   align-items: center;
   background-color: pink;
+  padding-bottom: 1%;
 }
 
 .social-icons a{
-  padding: 20px;
+  padding: 15px;
   font-size: 2.0em;
+  color: black;
+}
+.contact-info {
+  margin-top: 0px;
+}
+.contact-info a{
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 1.0em;
+  color: black;
 }
