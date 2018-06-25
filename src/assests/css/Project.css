@@ -1,0 +1,27 @@
+.project-box{
+  width: 100vw;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.sectionTitle {
+  position: absolute;
+  transform: rotate(-90deg);
+  transform-origin: left top;
+  font-size: 2.0em;
+  letter-spacing: 15px;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 600;
+  top: 20%;
+  left: 5%;
+  color: #545E75;
+  /* background-color: #d4aeb1; */
+  text-shadow: 3px 3px #f9f9f9;
+}
+
+.project-thumb img {
+  width: 25%;
+  height: 25%;
+}

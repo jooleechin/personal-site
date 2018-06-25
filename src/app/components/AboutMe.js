@@ -11,7 +11,7 @@ class AboutMe extends Component {
         <section className="content">
           <div className="about_me">
             <div className="photo">
-                <img src={yayoi} alt={yayoi}/>
+              <img src={yayoi} alt={yayoi}/>
             </div>
             <div className="blurb">
               <p>

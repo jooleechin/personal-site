@@ -33,22 +33,38 @@
   /* width: 75%; */
   /* display: flex;
   justify-content: center; */
+  width: 75%;
+  height: 60%;
+  background-color: blue;
+  position: relative;
 }
 .about_me div {
   margin: 10px 25px;
 }
-
+.photo {
+  width: 100%;
+  height: auto;
+  /* position: absolute;
+  left: 0%; */
+}
 .photo img {
   max-height: auto;
-  max-width: 40vw;
+  max-width: 35vw;
+  border: 15px #545E75 solid;
+  position: absolute;
+  left: 0%;
 }
 .blurb {
   font-size: .8em;
   width: 30%;
-  height: 20%;
+  height: 30%;
   text-align: justify;
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
+  background-color: pink;
+  position: absolute;
+  top: 0%;
+  right: 10%;
 }
 .tech {
   font-family: athelas, georgia, serif;
