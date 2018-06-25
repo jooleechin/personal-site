@@ -5,7 +5,7 @@ import Header from './app/components/Header'
 import Footer from './app/components/Footer'
 import Splashpage from './app/components/Splashpage'
 import AboutMe from './app/components/AboutMe'
-import Project from './app/componenets/Project'
+import Project from './app/components/Project'
 
 class App extends Component {
   render() {

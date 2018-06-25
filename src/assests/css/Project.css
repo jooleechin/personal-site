@@ -1,12 +1,14 @@
 .project-box{
   width: 100vw;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
   margin-left: auto;
   margin-right: auto;
   position: relative;
+  background-color: #f0f0f0;
 }
-.sectionTitle {
+.sectionTitle-P {
   position: absolute;
   transform: rotate(-90deg);
   transform-origin: left top;
@@ -14,14 +16,55 @@
   letter-spacing: 15px;
   font-family: 'Cabin', sans-serif;
   font-weight: 600;
-  top: 20%;
+  top: 48%;
   left: 5%;
   color: #545E75;
   /* background-color: #d4aeb1; */
   text-shadow: 3px 3px #f9f9f9;
 }
-
+.project-gallery{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.project {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.project-thumb {
+  /* border: 1px black solid; */
+  width: 450px;
+  /* height: 300px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: blue;
+}
 .project-thumb img {
-  width: 25%;
-  height: 25%;
+  flex-shrink: 0;
+  min-width: 100%;
+}
+.project-desc {
+  font-weight: 600;
+  padding-top: 2%;
+  text-align: left;
+}
+.project-desc h4 {
+  margin: 0px;
+  margin-bottom: 5px;
+  font-family: athelas, georgia, serif;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
+.project-desc span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: .5px;
 }
