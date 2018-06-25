@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
-import yayoi from '../../assests/images/yayoi.jpg'
 import '../../assests/css/Splashpage.css'
 
+const Fa = (props) => {
+  return <i className={`fa ${props.iconClass}`} aria-hidden="true"></i>
+};
 
 class Splashpage extends Component {
   render() {
@@ -36,10 +38,9 @@ class Splashpage extends Component {
             </pre>
           </div>
         </section>
-
-        {/* <div className="photo">
-            <img src={yayoi} alt={yayoi}/>
-        </div> */}
+        <div className="down-arrow">
+          <Fa iconClass="fa-angle-down" />
+        </div>
       </div>
     )
   }

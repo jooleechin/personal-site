@@ -16,8 +16,8 @@ class AboutMe extends Component {
             <div className="blurb">
               <h4>Hello!</h4>
               <p>My name is Joolee Chin and I am a software developer that
-              has full-stack knowledge. <br/>I enjoy designing and building responsive
-              websites.
+              has full-stack knowledge.<br/>I enjoy designing and building responsive
+              websites.<br/>Things I use to get the job done:
               </p>
             </div>
           </div>

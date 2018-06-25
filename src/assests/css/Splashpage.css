@@ -4,7 +4,6 @@
   width: 100%;
   height: 92vh;
 }
-
 .name {
   position: absolute;
   transform: rotate(-90deg);
@@ -35,13 +34,9 @@
   padding: 20px;
   font-size: 1.0em;
 }
-/* photo stuff */
-/* .photo {
+.down-arrow {
   position: absolute;
-  top: 10%;
-  right: 10%;
+  bottom: 0%;
+  left: 50%;
+  font-size: 3.5em;
 }
-.photo img {
-  max-height: auto;
-  max-width: 40vw;
-} */
