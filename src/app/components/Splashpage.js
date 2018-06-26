@@ -38,9 +38,9 @@ class Splashpage extends Component {
             </pre>
           </div>
         </section>
-{/*        <div className="down-arrow">
+       <div className="down-arrow">
           <Fa iconClass="fa-angle-down"  />
-        </div> */}
+        </div>
       </div>
     )
   }
