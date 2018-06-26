@@ -34,25 +34,19 @@ let scroll = {
 		let bottomScrollableY = height - windowHeight;
 		let targetY = (bottomScrollableY < delta) ?
 			bottomScrollableY - (height - nodeTop - nodeHeight + offset):
-			delta;
-
+			delta
 		startTime = Date.now();
 		percentage = 0;
-
 		if (this.timer) {
 			clearInterval(this.timer);
 		}
-
 		function step () {
 			let yScroll;
 			let elapsed = Date.now() - startTime;
-
 			if (elapsed > settings.duration) {
 				clearTimeout(this.timer);
 			}
-
 			percentage = elapsed / settings.duration;
-
 			if (percentage > 1) {
 				clearTimeout(this.timer);
 				if (callback) {
@@ -75,9 +69,9 @@ class Header extends Component {
       <div className = "nav-box">
         <header>
           <nav>
-            <a className="nav-link" onClick={() => scroll.scrollTo('top')}>home</a>
-            <a className="nav-link" onClick={() => scroll.scrollTo('about')}>about me</a>
-            <a className="nav-link" onClick={() => scroll.scrollTo('project')}>projects</a>
+            <a className="nav-link pointer" onClick={() => scroll.scrollTo('top')}>home</a>
+            <a className="nav-link pointer" onClick={() => scroll.scrollTo('about')}>about me</a>
+            <a className="nav-link pointer" onClick={() => scroll.scrollTo('project')}>projects</a>
           </nav>
         </header>
       </div>
