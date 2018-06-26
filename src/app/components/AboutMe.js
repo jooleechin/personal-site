@@ -6,7 +6,7 @@ import yayoi from '../../assests/images/yayoi.jpg'
 class AboutMe extends Component {
   render() {
     return(
-      <div className = "about-box">
+      <div className = "about-box" id="about">
         <h1 className="sectionTitle">ABOUT</h1>
         <section className="content">
           <div className="about_me">

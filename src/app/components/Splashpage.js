@@ -8,7 +8,7 @@ const Fa = (props) => {
 class Splashpage extends Component {
   render() {
     return(
-      <div className = "splash-box">
+      <div className = "splash-box" id="top">
         <h1 className="name">JOOLEE</h1>
         <div className="words">
             <p>software developer.<br />seattle.</p>

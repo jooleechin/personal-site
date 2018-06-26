@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link';
 import '../../assests/css/header.css'
 
 class Header extends Component {
@@ -8,9 +8,9 @@ class Header extends Component {
       <div className = "nav-box">
         <header>
           <nav>
-            <Link to="/" className="nav-link">home</Link>
-            <Link to="/" className="nav-link">about me</Link>
-            <Link to="/" className="nav-link">projects</Link>
+            <Link to="/#top" className="nav-link">home</Link>
+            <Link to="/#about" className="nav-link">about me</Link>
+            <Link to="/#project" className="nav-link">projects</Link>
           </nav>
         </header>
       </div>

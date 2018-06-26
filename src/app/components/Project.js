@@ -9,7 +9,7 @@ import local from '../../assests/images/local.jpg'
 class Project extends Component {
   render() {
     return(
-      <div className = "project-box">
+      <div className = "project-box" id = "project">
         <h1 className="sectionTitle-P">PROJECTS</h1>
         <section>
           <div className="project-gallery">
