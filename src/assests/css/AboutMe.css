@@ -6,7 +6,7 @@
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  /* background-color: pink; */
+  /* background-color: #FCAB10; */
 }
 .sectionTitle {
   position: absolute;
@@ -20,7 +20,7 @@
   left: 5%;
   color: #545E75;
   /* background-color: #d4aeb1; */
-  text-shadow: 3px 3px #f9f9f9;
+  text-shadow: 3px 3px #d4aeb1;
 }
 .content {
   margin-left: auto;
@@ -90,6 +90,7 @@
   font-size: 1.1em;
 }
 .skills ul {
+  list-style-type: none;
   margin-left: 70px;
   margin-right: 70px;
 }

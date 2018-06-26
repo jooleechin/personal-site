@@ -2,7 +2,12 @@
   margin-left: auto;
   margin-right: auto;
   height: 8vh;
-  font-family: 'Cabin', sans-serif;
+  font-family: athelas, georgia, serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
 }
 
 nav {
@@ -10,20 +15,17 @@ nav {
   flex-wrap: nowrap;
   justify-content: center;
   font-weight: 600;
-  font-size: 1.8em;
+  font-size: 1.5em;
   letter-spacing: 2px;
   margin: 0px;
   padding: 0px;
   background-color: white;
-  /* -webkit-box-shadow: 0 10px 6px -6px #777;
-  -moz-box-shadow: 0 10px 6px -6px #777;
-  box-shadow: 0 10px 6px -6px #777; */
+  box-shadow: 0 3px 5px -2px #d8d8d8;
 }
 .nav-link{
   margin: 10px;
   position: relative;
-  /* color: #0000FF; */
-  color: pink;
+  color: #d4aeb1;
   text-decoration: none;
 }
 .nav-link:before {
@@ -49,12 +51,4 @@ nav {
 }
 .nav-link:hover {
   /* color: #0000FF; */
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
 }
