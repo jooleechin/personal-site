@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { HashLink as Link } from 'react-router-hash-link';
 import '../../assests/css/header.css'
+import MediaQuery from 'react-responsive'
+import { Slide as Menu } from 'react-burger-menu'
 
 let scroll = {
 	timer: null,
@@ -64,16 +66,19 @@ let scroll = {
 
 
 class Header extends Component {
+	showSettings (event) {
+    event.preventDefault()
+  }
   render() {
     return(
       <div className = "nav-box">
-        <header>
-          <nav>
-            <a className="nav-link pointer" onClick={() => scroll.scrollTo('top')}>home</a>
-            <a className="nav-link pointer" onClick={() => scroll.scrollTo('about')}>about me</a>
-            <a className="nav-link pointer" onClick={() => scroll.scrollTo('project')}>projects</a>
-          </nav>
-        </header>
+	        <header>
+	          <nav>
+	            <a className="nav-link pointer" onClick={() => scroll.scrollTo('top')}>home</a>
+	            <a className="nav-link pointer" onClick={() => scroll.scrollTo('about')}>about me</a>
+	            <a className="nav-link pointer" onClick={() => scroll.scrollTo('project')}>projects</a>
+	          </nav>
+	        </header>
       </div>
     )
   }

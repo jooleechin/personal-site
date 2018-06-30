@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../../assests/css/Splashpage.css'
+import Prism from 'prismjs'
 
 const Fa = (props) => {
   return <i className={`fa ${props.iconClass}`} aria-hidden="true"></i>
@@ -27,7 +28,7 @@ class Splashpage extends Component {
       state: 'Washington'
     },
     contact: {
-      email: 'jooleechin_(at)_gmail_dot_com',
+      email: 'jooleechin@gmail.com',
       github: 'github.com/jooleechin',
       linkedin: 'linkedin.com/in/jooleechin'
     }

@@ -68,7 +68,7 @@
   padding-right: 2%;
 }
 .blurb h4 {
-  text-shadow: 3px 3px #f9f9f9;
+  text-shadow: 2px 2px #d4aeb1;
   font-size: 1.5em;
   letter-spacing: 2px;
   color: #545E75;
@@ -98,4 +98,34 @@
 .skills li {
   color: black;
   padding-bottom: 4px;
+}
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .sectionTitle {
+      top: 30%;
+      font-size: 1.5em;
+    }
+    .photo {
+      position: absolute;
+      width: 250px;
+      border: 5px #f0f0f0 solid;
+    }
+    .blurb {
+      top: 40%;
+      left: 20%;
+      width: 80%;
+      height: 32%;
+      padding-left: 3%;
+      padding-top: 1%;
+      z-index: 1;
+    }
+    .blurb h4 {
+      font-size: .96em;
+    }
+    .blurb p {
+      font-size: .55em;
+    }
 }

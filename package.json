@@ -4,8 +4,11 @@
   "private": true,
   "dependencies": {
     "ajv": "^6.5.1",
+    "prismjs": "^1.15.0",
     "react": "^16.4.1",
+    "react-burger-menu": "^2.5.2",
     "react-dom": "^16.4.1",
+    "react-responsive": "^4.1.0",
     "react-router-dom": "^4.3.1",
     "react-router-hash-link": "^1.2.0",
     "react-scripts": "1.1.4"
